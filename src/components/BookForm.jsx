@@ -21,12 +21,12 @@ const BookForm = () => {
             <div className='flex-1 border-r'>
                 <AdultsDropdown />
             </div>
-            <div className='flex-1 border-r'>
+            {/* <div className='flex-1 border-r'>
                 <KidsDropdown />
-            </div>
+            </div> */}
 
             <button onClick={(e)=> handleClick(e)} type='submit' className='btn btn-primary'>Check now</button>
-           </div>
+           </div> 
         </form>
     ) 
 }

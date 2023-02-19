@@ -8,7 +8,7 @@ const list = [
   {name: '2 Adults'},
   {name: '3 Adults'},
   {name: '4 Adults'},
-]
+] 
 
 const AdultsDropdown = () => { 
   const { adults, setAdults } = useContext(RoomContext)

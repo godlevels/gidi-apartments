@@ -6,6 +6,6 @@ const ScrollToTop = () => {
             to top
         </div>
     )
-}
+} 
 
 export default ScrollToTop

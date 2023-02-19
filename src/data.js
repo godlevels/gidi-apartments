@@ -1,18 +1,18 @@
-import Room1Img from './assets/img/rooms/1.png';
+import Room1Img from './assets/img/rooms/1.jpg';
 import Room1ImgLg from './assets/img/rooms/1-b.png';
-import Room2Img from './assets/img/rooms/2.png';
+import Room2Img from './assets/img/rooms/2.jpg';
 import Room2ImgLg from './assets/img/rooms/2-b.png';
-import Room3Img from './assets/img/rooms/3.png';
+import Room3Img from './assets/img/rooms/3.jpg';
 import Room3ImgLg from './assets/img/rooms/3-b.png';
-import Room4Img from './assets/img/rooms/4.png';
+import Room4Img from './assets/img/rooms/4.jpg';
 import Room4ImgLg from './assets/img/rooms/4-b.png';
-import Room5Img from './assets/img/rooms/5.png';
+import Room5Img from './assets/img/rooms/5.jpg';
 import Room5ImgLg from './assets/img/rooms/5-b.png';
-import Room6Img from './assets/img/rooms/6.png';
+import Room6Img from './assets/img/rooms/6.jpg';
 import Room6ImgLg from './assets/img/rooms/6-b.png';
-import Room7Img from './assets/img/rooms/7.png';
+import Room7Img from './assets/img/rooms/7.jpg';
 import Room7ImgLg from './assets/img/rooms/7-b.png';
-import Room8Img from './assets/img/rooms/8.png';
+import Room8Img from './assets/img/rooms/8.jpg';
 import Room8ImgLg from './assets/img/rooms/8-b.png';
 
 import {
@@ -21,7 +21,7 @@ import {
   FaBath,
   FaParking,
   FaSwimmingPool,
-  FaHotdog,
+  FaHotdog, 
   FaStopwatch,
   FaCocktail,
 } from 'react-icons/fa';
