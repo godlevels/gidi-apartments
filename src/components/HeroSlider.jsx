@@ -43,7 +43,7 @@ const HeroSlider = () => {
                         <img className='object-cover h-full w-full' src={bg} alt="" />
                     </div>
 
-                    <div className='absolute w-full h-full bg-black/70'>
+                    <div className='absolute w-full h-full bg-black/70'> 
 
                     </div>
                 </SwiperSlide>

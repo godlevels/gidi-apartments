@@ -18,7 +18,7 @@ const Room = ({ room }) => {
                             <BsArrowsFullscreen className='text-[15px]' />
                         </div>
                         <div className='flex gap-x-1'>
-                            <h1>Size</h1>
+                            <h1>Size</h1> 
                             <h1>{size}m2</h1>
                         </div>
                     </div>
@@ -36,16 +36,19 @@ const Room = ({ room }) => {
                 </div>
             </div>
 
-            <div className='text-center'>
+            <div className=''>
                 <Link to={`/home/${id}`}>
                     <h3 className='h3'>{name}</h3>
                 </Link>
                 <p className='max-w-[300px] mx-auto mb-3 lg:mb-6'>{description.slice(0, 56)}</p>
             </div>
 
-            <Link className='btn btn-secondary btn-sm max-w-[240px] mx-auto' to={`/home/${id}`}>
-                Book now from ${price}
-            </Link>
+            <div className='flex'>
+                <Link className='btn btn-secondary btn-sm mx-auto' to={`/home/${id}`}>
+                    Book now 
+                </Link>
+                <h1>${price}</h1>
+            </div>
         </div>
     )
 }

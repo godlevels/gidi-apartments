@@ -15,17 +15,6 @@ import Room7ImgLg from './assets/img/rooms/7-b.png';
 import Room8Img from './assets/img/rooms/8.jpg';
 import Room8ImgLg from './assets/img/rooms/8-b.png';
 
-import {
-  FaWifi,
-  FaCoffee,
-  FaBath,
-  FaParking,
-  FaSwimmingPool,
-  FaHotdog, 
-  FaStopwatch,
-  FaCocktail,
-} from 'react-icons/fa';
-
 
 export const roomData = [
     {
@@ -33,16 +22,6 @@ export const roomData = [
       name: 'Superior Room',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-      // facilities: [
-      //   { name: 'Wifi', icon: <FaWifi /> },
-      //   { name: 'Coffee', icon: <FaCoffee /> },
-      //   { name: 'Bath', icon: <FaBath /> },
-      //   { name: 'Parking Space', icon: <FaParking /> },
-      //   { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
-      //   { name: 'Breakfast', icon: <FaHotdog /> },
-      //   { name: 'GYM', icon: <FaStopwatch /> },
-      //   { name: 'Drinks', icon: <FaCocktail /> },
-      // ],
       size: 30,
       maxPerson: 1,
       price: 115,
@@ -54,16 +33,6 @@ export const roomData = [
       name: 'Signature Room',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-      // facilities: [
-      //   { name: 'Wifi', icon: <FaWifi /> },
-      //   { name: 'Coffee', icon: <FaCoffee /> },
-      //   { name: 'Bath', icon: <FaBath /> },
-      //   { name: 'Parking Space', icon: <FaParking /> },
-      //   { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
-      //   { name: 'Breakfast', icon: <FaHotdog /> },
-      //   { name: 'GYM', icon: <FaStopwatch /> },
-      //   { name: 'Drinks', icon: <FaCocktail /> },
-      // ],
       size: 70,
       maxPerson: 2,
       price: 220,
@@ -75,16 +44,6 @@ export const roomData = [
       name: 'Deluxe Room',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-      // facilities: [
-      //   { name: 'Wifi', icon: <FaWifi /> },
-      //   { name: 'Coffee', icon: <FaCoffee /> },
-      //   { name: 'Bath', icon: <FaBath /> },
-      //   { name: 'Parking Space', icon: <FaParking /> },
-      //   { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
-      //   { name: 'Breakfast', icon: <FaHotdog /> },
-      //   { name: 'GYM', icon: <FaStopwatch /> },
-      //   { name: 'Drinks', icon: <FaCocktail /> },
-      // ],
       size: 50,
       maxPerson: 3,
       price: 265,
@@ -96,16 +55,6 @@ export const roomData = [
       name: 'Luxury Room',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-      // facilities: [
-      //   { name: 'Wifi', icon: <FaWifi /> },
-      //   { name: 'Coffee', icon: <FaCoffee /> },
-      //   { name: 'Bath', icon: <FaBath /> },
-      //   { name: 'Parking Space', icon: <FaParking /> },
-      //   { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
-      //   { name: 'Breakfast', icon: <FaHotdog /> },
-      //   { name: 'GYM', icon: <FaStopwatch /> },
-      //   { name: 'Drinks', icon: <FaCocktail /> },
-      // ],
       size: 50,
       maxPerson: 4,
       price: 289,
@@ -117,16 +66,6 @@ export const roomData = [
       name: 'Luxury Suite Room',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-      // facilities: [
-      //   { name: 'Wifi', icon: <FaWifi /> },
-      //   { name: 'Coffee', icon: <FaCoffee /> },
-      //   { name: 'Bath', icon: <FaBath /> },
-      //   { name: 'Parking Space', icon: <FaParking /> },
-      //   { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
-      //   { name: 'Breakfast', icon: <FaHotdog /> },
-      //   { name: 'GYM', icon: <FaStopwatch /> },
-      //   { name: 'Drinks', icon: <FaCocktail /> },
-      // ],
       size: 90,
       maxPerson: 5,
       price: 320,
@@ -138,16 +77,6 @@ export const roomData = [
       name: 'Deluxe Room',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-      // facilities: [
-      //   { name: 'Wifi', icon: <FaWifi /> },
-      //   { name: 'Coffee', icon: <FaCoffee /> },
-      //   { name: 'Bath', icon: <FaBath /> },
-      //   { name: 'Parking Space', icon: <FaParking /> },
-      //   { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
-      //   { name: 'Breakfast', icon: <FaHotdog /> },
-      //   { name: 'GYM', icon: <FaStopwatch /> },
-      //   { name: 'Drinks', icon: <FaCocktail /> },
-      // ],
       size: 45,
       maxPerson: 6,
       price: 344,
@@ -159,16 +88,6 @@ export const roomData = [
       name: 'Luxury Room',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea ccusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-      // facilities: [
-      //   { name: 'Wifi', icon: <FaWifi /> },
-      //   { name: 'Coffee', icon: <FaCoffee /> },
-      //   { name: 'Bath', icon: <FaBath /> },
-      //   { name: 'Parking Space', icon: <FaParking /> },
-      //   { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
-      //   { name: 'Breakfast', icon: <FaHotdog /> },
-      //   { name: 'GYM', icon: <FaStopwatch /> },
-      //   { name: 'Drinks', icon: <FaCocktail /> },
-      // ],
       size: 84,
       maxPerson: 7,
       price: 389,
@@ -180,16 +99,6 @@ export const roomData = [
       name: 'Deluxe Room',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-      // facilities: [
-      //   { name: 'Wifi', icon: <FaWifi /> },
-      //   { name: 'Coffee', icon: <FaCoffee /> },
-      //   { name: 'Bath', icon: <FaBath /> },
-      //   { name: 'Parking Space', icon: <FaParking /> },
-      //   { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
-      //   { name: 'Breakfast', icon: <FaHotdog /> },
-      //   { name: 'GYM', icon: <FaStopwatch /> },
-      //   { name: 'Drinks', icon: <FaCocktail /> },
-      // ],
       size: 48,
       maxPerson: 8,
       price: 499,
