@@ -1,9 +1,8 @@
 import React, { useContext } from 'react'
-import AdultsDropdown from '../components/AdultsDropdown'
-import KidsDropdown from '../components/KidsDropdown'
 import CheckIn from '../components/CheckIn'
 import CheckOut from '../components/CheckOut'
 import { RoomContext } from '../context/RoomContext'
+import RoomSize from './RoomSize'
 
 
 
@@ -19,11 +18,11 @@ const BookForm = () => {
                 <CheckOut />
             </div>
             <div className='flex-1 border-r'>
-                <AdultsDropdown />
+                <RoomSize />
             </div> 
             <button onClick={(e)=> handleClick(e)} type='submit' className='btn btn-primary'>check rooms</button> 
            </div> 
-        </form>
+        </form> 
     ) 
 }
 

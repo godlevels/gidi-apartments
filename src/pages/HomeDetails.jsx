@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom'
-import AdultsDropdown from '../components/AdultsDropdown'
+import AdultsDropdown from '../components/RoomSize'
 import CheckIn from '../components/CheckIn'
 import CheckOut from '../components/CheckOut'
 import { RoomContext } from '../context/RoomContext'

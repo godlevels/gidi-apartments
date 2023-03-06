@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div className={`${header ? 'bg-white py-5 shadow-lg' : 'bg-transparent py-5'} fixed z-50 w-full transition-all duration-300`}>
             <div className="container mx-auto flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between">
-                <a href="/">Logo</a>
+                <a href="/" className='text-black font-bold uppercase'>b*homes</a>
 
                 <nav className={`${header ? 'text-primary' : 'text-accent'} flex gap-x-4 lg:gap-x-8 font-tertiary tracking-[3px] text-[15px] items-center uppercase`}>
                     <a href="" className='hover:text-accent transition'>Home</a>
